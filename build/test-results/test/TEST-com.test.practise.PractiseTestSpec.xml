@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.test.practise.PractiseTestSpec" tests="7" skipped="0" failures="1" errors="0" timestamp="2018-08-22T02:18:54" hostname="PKs-MacBook-Pro.local" time="0.147">
+  <properties/>
+  <testcase name="Timeout test, forced failure with 1 milliseconds" classname="com.test.practise.PractiseTestSpec" time="0.003"/>
+  <testcase name="maximum of 1 and 3 is 3" classname="com.test.practise.PractiseTestSpec" time="0.003"/>
+  <testcase name="maximum of 7 and 4 is 4" classname="com.test.practise.PractiseTestSpec" time="0.134">
+    <failure message="Condition not satisfied:&#10;&#10;Math.max(a, b) == c&#10;     |   |  |  |  |&#10;     7   7  4  |  4&#10;               false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+Math.max(a, b) == c
+     |   |  |  |  |
+     7   7  4  |  4
+               false
+
+	at com.test.practise.PractiseTestSpec.maximum of #a and #b is #c(PractiseTestSpec.groovy:30)
+</failure>
+  </testcase>
+  <testcase name="maximum of 0 and 0 is 0" classname="com.test.practise.PractiseTestSpec" time="0.0"/>
+  <testcase name="maximum of two numbers when first number is bigger" classname="com.test.practise.PractiseTestSpec" time="0.0"/>
+  <testcase name="maximum of two numbers when second number is bigger" classname="com.test.practise.PractiseTestSpec" time="0.0"/>
+  <testcase name="maximum of two numbers when numbers are equal" classname="com.test.practise.PractiseTestSpec" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
