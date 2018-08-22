@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b002103-6e57-4e36-9039-c30939c442e0" name="Default" comment="" />
+    <list default="true" id="5b002103-6e57-4e36-9039-c30939c442e0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/test/practise/PractiseTestSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/com/test/practise/PractiseTestSpec.groovy" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,11 +65,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="157">
+              <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -79,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PractiseTestSpec.groovy" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PractiseTestSpec.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/com/test/practise/PractiseTestSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+            <state relative-caret-position="72">
+              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
               <folding>
                 <element signature="e#27#50#0" expanded="true" />
               </folding>
@@ -91,25 +95,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/reports/tests/test/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonTest.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/test/practise/PersonTest.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -304,9 +293,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6109281977000" />
+        <entry key="$PROJECT_DIR$" value="6109282091000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="1880323637" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="1284449907" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2083459160" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="297075720" />
       </map>
@@ -494,8 +483,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/groovy/com/test/practise/PractiseTestSpec.groovy" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/test/practise/PractiseTestSpec.groovy" />
       </list>
     </option>
   </component>
@@ -531,115 +520,127 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectUserFactors">
     <factor id="binaryFeature:liftShorter">
       <dailyData date="21-8-2018">
-        <observation name="false" value="10.0" />
+        <observation name="false" value="15.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:liftShorterClasses">
       <dailyData date="21-8-2018">
-        <observation name="UNDEFINED" value="10.0" />
+        <observation name="UNDEFINED" value="15.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:middleMatching">
       <dailyData date="21-8-2018">
-        <observation name="false" value="10.0" />
+        <observation name="false" value="15.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:nonGeneric">
       <dailyData date="21-8-2018">
-        <observation name="UNDEFINED" value="10.0" />
+        <observation name="UNDEFINED" value="15.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_inResolveScope">
       <dailyData date="21-8-2018">
-        <observation name="true" value="10.0" />
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="true" value="14.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_openedInEditor">
       <dailyData date="21-8-2018">
+        <observation name="UNDEFINED" value="1.0" />
         <observation name="false" value="10.0" />
+        <observation name="true" value="4.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameDirectory">
       <dailyData date="21-8-2018">
+        <observation name="UNDEFINED" value="1.0" />
         <observation name="false" value="10.0" />
+        <observation name="true" value="4.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameLogicalRoot">
       <dailyData date="21-8-2018">
+        <observation name="UNDEFINED" value="1.0" />
         <observation name="false" value="10.0" />
+        <observation name="true" value="4.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sdkOrLibrary">
       <dailyData date="21-8-2018">
-        <observation name="false" value="9.0" />
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="false" value="13.0" />
         <observation name="true" value="1.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:templates">
       <dailyData date="21-8-2018">
-        <observation name="false" value="10.0" />
+        <observation name="false" value="15.0" />
       </dailyData>
     </factor>
     <factor id="categorialFeature:accessible">
       <dailyData date="21-8-2018">
-        <observation name="UNDEFINED" value="10.0" />
+        <observation name="UNDEFINED" value="15.0" />
       </dailyData>
     </factor>
     <factor id="categorialFeature:expectedType">
       <dailyData date="21-8-2018">
-        <observation name="UNDEFINED" value="10.0" />
+        <observation name="UNDEFINED" value="15.0" />
       </dailyData>
     </factor>
     <factor id="categorialFeature:kind">
       <dailyData date="21-8-2018">
-        <observation name="UNDEFINED" value="10.0" />
+        <observation name="UNDEFINED" value="15.0" />
       </dailyData>
     </factor>
     <factor id="categorialFeature:prox_groovyReferenceListWeigher">
       <dailyData date="21-8-2018">
-        <observation name="unknown" value="10.0" />
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="unknown" value="14.0" />
       </dailyData>
     </factor>
     <factor id="categorialFeature:prox_javaInheritance">
       <dailyData date="21-8-2018">
+        <observation name="UNDEFINED" value="1.0" />
         <observation name="false" value="7.0" />
-        <observation name="null" value="3.0" />
+        <observation name="null" value="7.0" />
       </dailyData>
     </factor>
     <factor id="categorialFeature:prox_referenceList">
       <dailyData date="21-8-2018">
-        <observation name="unknown" value="10.0" />
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="unknown" value="14.0" />
       </dailyData>
     </factor>
     <factor id="categorialFeature:recursion">
       <dailyData date="21-8-2018">
-        <observation name="UNDEFINED" value="10.0" />
+        <observation name="UNDEFINED" value="15.0" />
       </dailyData>
     </factor>
     <factor id="completionFinishedType">
       <dailyData date="21-8-2018">
-        <observation name="cancelled" value="189.0" />
+        <observation name="cancelled" value="419.0" />
         <observation name="explicitSelect" value="6.0" />
-        <observation name="typedSelect" value="4.0" />
+        <observation name="typedSelect" value="9.0" />
       </dailyData>
     </factor>
     <factor id="completionType">
       <dailyData date="21-8-2018">
-        <observation name="BASIC" value="18.0" />
+        <observation name="BASIC" value="25.0" />
       </dailyData>
     </factor>
     <factor id="completionUsage">
       <dailyData date="21-8-2018">
-        <observation name="count" value="199.0" />
+        <observation name="count" value="434.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
       <dailyData date="21-8-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="19.0" />
+        <observation name="count" value="29.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -648,7 +649,7 @@
     <factor id="doubleFeature:grouping">
       <dailyData date="21-8-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="19.0" />
+        <observation name="count" value="29.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -656,36 +657,36 @@
     </factor>
     <factor id="doubleFeature:mostUsed">
       <dailyData date="21-8-2018">
-        <observation name="UNDEFINED" value="10.0" />
+        <observation name="UNDEFINED" value="15.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:nameEnd">
       <dailyData date="21-8-2018">
-        <observation name="UNDEFINED" value="10.0" />
+        <observation name="UNDEFINED" value="15.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:position">
       <dailyData date="21-8-2018">
-        <observation name="average" value="0.421053" />
-        <observation name="count" value="19.0" />
+        <observation name="average" value="0.275862" />
+        <observation name="count" value="29.0" />
         <observation name="max" value="4.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="0.890121" />
+        <observation name="variance" value="0.74481" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prefix">
       <dailyData date="21-8-2018">
-        <observation name="average" value="-1079.210526" />
-        <observation name="count" value="19.0" />
+        <observation name="average" value="-1104.655172" />
+        <observation name="count" value="29.0" />
         <observation name="max" value="-1053.0" />
         <observation name="min" value="-1153.0" />
-        <observation name="variance" value="1059.290604" />
+        <observation name="variance" value="1507.767086" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:priority">
       <dailyData date="21-8-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="19.0" />
+        <observation name="count" value="29.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -693,44 +694,48 @@
     </factor>
     <factor id="doubleFeature:prox_explicitlyImported">
       <dailyData date="21-8-2018">
-        <observation name="average" value="0.0" />
-        <observation name="count" value="19.0" />
-        <observation name="max" value="0.0" />
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="average" value="88.888889" />
+        <observation name="count" value="27.0" />
+        <observation name="max" value="300.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="0.0" />
+        <observation name="variance" value="9638.007616" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_knownElement">
       <dailyData date="21-8-2018">
-        <observation name="average" value="0.421053" />
-        <observation name="count" value="19.0" />
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="average" value="0.296296" />
+        <observation name="count" value="27.0" />
         <observation name="max" value="4.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="0.890121" />
+        <observation name="variance" value="0.768595" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_sameModule">
       <dailyData date="21-8-2018">
-        <observation name="average" value="0.0" />
-        <observation name="count" value="19.0" />
-        <observation name="max" value="0.0" />
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="average" value="0.592593" />
+        <observation name="count" value="27.0" />
+        <observation name="max" value="2.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="0.0" />
+        <observation name="variance" value="0.428356" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_samePsiMember">
       <dailyData date="21-8-2018">
-        <observation name="average" value="0.0" />
-        <observation name="count" value="19.0" />
-        <observation name="max" value="0.0" />
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="average" value="0.444444" />
+        <observation name="count" value="27.0" />
+        <observation name="max" value="2.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="0.0" />
+        <observation name="variance" value="0.359769" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:query_length">
       <dailyData date="21-8-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="19.0" />
+        <observation name="count" value="29.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -738,32 +743,32 @@
     </factor>
     <factor id="doubleFeature:result_length">
       <dailyData date="21-8-2018">
-        <observation name="average" value="6.157895" />
-        <observation name="count" value="19.0" />
+        <observation name="average" value="4.655172" />
+        <observation name="count" value="29.0" />
         <observation name="max" value="12.0" />
-        <observation name="min" value="4.0" />
-        <observation name="variance" value="2.952312" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="4.87726" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:sameWords">
       <dailyData date="21-8-2018">
-        <observation name="UNDEFINED" value="10.0" />
+        <observation name="UNDEFINED" value="15.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:shorter">
       <dailyData date="21-8-2018">
-        <observation name="UNDEFINED" value="10.0" />
+        <observation name="UNDEFINED" value="15.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:simple">
       <dailyData date="21-8-2018">
-        <observation name="UNDEFINED" value="10.0" />
+        <observation name="UNDEFINED" value="15.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:sorter">
       <dailyData date="21-8-2018">
         <observation name="average" value="1.0" />
-        <observation name="count" value="19.0" />
+        <observation name="count" value="29.0" />
         <observation name="max" value="1.0" />
         <observation name="min" value="1.0" />
         <observation name="variance" value="0.0" />
@@ -771,16 +776,16 @@
     </factor>
     <factor id="doubleFeature:statics">
       <dailyData date="21-8-2018">
-        <observation name="UNDEFINED" value="10.0" />
+        <observation name="UNDEFINED" value="15.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:stats">
       <dailyData date="21-8-2018">
-        <observation name="average" value="1052.631579" />
-        <observation name="count" value="19.0" />
+        <observation name="average" value="689.655172" />
+        <observation name="count" value="29.0" />
         <observation name="max" value="10000.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="6739135.101102" />
+        <observation name="variance" value="5611174.536205" />
       </dailyData>
     </factor>
     <factor id="itemPosition">
@@ -804,8 +809,8 @@
     </factor>
     <factor id="timeBetweenTyping">
       <dailyData date="21-8-2018">
-        <observation name="average" value="229.793103" />
-        <observation name="count" value="29.0" />
+        <observation name="average" value="207.405405" />
+        <observation name="count" value="37.0" />
       </dailyData>
     </factor>
   </component>
@@ -829,50 +834,6 @@
             <path>
               <item name="groovy" type="b2602c69:ProjectViewProjectNode" />
               <item name="groovy-practise" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="groovy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="groovy-practise" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="groovy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="groovy-practise" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="groovy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="groovy-practise" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="groovy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="groovy-practise" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="groovy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="groovy-practise" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="test-results" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="groovy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="groovy-practise" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="test-results" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="groovy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="groovy-practise" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -887,14 +848,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="groovy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="groovy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="groovy-practise" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="groovy" type="462c0819:PsiDirectoryNode" />
-              <item name="practise" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1111,7 +1064,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="FindBugs-IDEA" />
@@ -1137,7 +1089,7 @@
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.55303717" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="CheckStyle" />
       <window_info anchor="right" id="Graph Database" />
       <window_info anchor="right" id="CodeMR" />
@@ -1168,13 +1120,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/test/practise/PersonTestSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/reports/tests/test/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -1185,20 +1130,30 @@
     <entry file="file://$PROJECT_DIR$/build/test-results/test/TEST-com.test.practise.PractiseTestSpec.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/test/practise/PractiseTestSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-          <folding>
-            <element signature="e#27#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/build/spock-reports/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="157">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/test/practise/PersonTestSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/test/practise/PractiseTestSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <folding>
+            <element signature="e#27#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
