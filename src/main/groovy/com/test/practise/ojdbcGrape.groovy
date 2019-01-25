@@ -1,5 +1,6 @@
 #! /usr/local/bin/groovy
 @GrabConfig(systemClassLoader = true)
+// change the resolver path and grab artifact details if you want ojdbc6 jar from some other repo
 @GrabResolver(name = 'ojdbc6', root = 'https://mvnrepository.com/artifact/com.oracle/ojdbc6')
 @Grapes(
         @Grab(group = 'com.oracle', module = 'ojdbc6', version = '12.1.0.1-atlassian-hosted')
