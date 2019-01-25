@@ -55,5 +55,6 @@ remoteSession {
     exec 'touch /home/tmp/test/my2.pid'
     remoteFile('/home/tmp/test/my.conf').text = "enabled=true"
     exec (command: "ls /home/tmp/test/", showOutput: true)
+    exec (command: "find /", showOutput: true)
 }
 
