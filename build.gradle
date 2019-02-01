@@ -18,6 +18,14 @@ configurations {
 tasks.withType(GroovyCompile) {
     groovyClasspath += configurations.ivy
 }
+
+// spock config 
+// you can define a task and change the spock config for that task 
+task testos (type: Test) {
+    group = 'Verification' // blongs to verification group
+    // this or class path 
+    systemProperty 'spock.configuration', 'SpockConfigDummy.groovy'
+}
 dependencies {
     compile "org.codehaus.groovy:groovy-all:2.4.13"
     ivy "org.apache.ivy:ivy:2.3.0" // for @Grab
