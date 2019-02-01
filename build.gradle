@@ -9,8 +9,18 @@ repositories {
     mavenCentral()
 }
 
+// ivy for @Grab
+configurations {
+    ivy
+}
+
+// for @Grab
+tasks.withType(GroovyCompile) {
+    groovyClasspath += configurations.ivy
+}
 dependencies {
     compile "org.codehaus.groovy:groovy-all:2.4.13"
+    ivy "org.apache.ivy:ivy:2.3.0" // for @Grab
     testCompile "org.spockframework:spock-core:1.1-groovy-2.4"
     // better report build/spock-reports/index.html
     testCompile( 'com.athaydes:spock-reports:1.6.0' ) {
