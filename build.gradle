@@ -14,6 +14,26 @@ configurations {
     ivy
 }
 
+// ignore @Grab during compile
+compileGroovy {
+    // Create temp file.
+    File temp = File.createTempFile("config", ".groovy");
+
+    // Delete temp file when program exits.
+    temp.deleteOnExit();
+
+    // Write to temp file
+    BufferedWriter out = new BufferedWriter(new FileWriter(temp));
+    out.write("""\
+        withConfig(configuration) {
+            configuration.setDisabledGlobalASTTransformations(['groovy.grape.GrabAnnotationTransformation'] as Set)
+        }
+    """.stripIndent());
+    out.close();
+    groovyOptions.configurationScript = temp
+}
+
+
 // for @Grab
 tasks.withType(GroovyCompile) {
     groovyClasspath += configurations.ivy
