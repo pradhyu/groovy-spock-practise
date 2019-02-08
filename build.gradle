@@ -48,8 +48,9 @@ task testos (type: Test) {
 }
 dependencies {
     compile "org.codehaus.groovy:groovy-all:2.4.13"
-    ivy "org.apache.ivy:ivy:2.3.0" // for @Grab
     testCompile "org.spockframework:spock-core:1.1-groovy-2.4"
+    compile "org.apache.ivy:ivy:2.3.0" // for @Grab
+    ivy "org.apache.ivy:ivy:2.3.0" // for @Grab
     // better report build/spock-reports/index.html
     testCompile( 'com.athaydes:spock-reports:1.6.0' ) {
         transitive = false // this avoids affecting your version of Groovy/Spock
