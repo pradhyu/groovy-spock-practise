@@ -51,4 +51,5 @@ class PractiseTestSpec extends Specification {
         "numbers are equal"       | 3 | 3 | 3
     }
 
+
 }
