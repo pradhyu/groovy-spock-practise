@@ -11,6 +11,7 @@ repositories {
 
 dependencies {
     compile "org.codehaus.groovy:groovy-all:2.4.13"
+    compile "org.apache.ivy:ivy:2.3.0"
     testCompile "org.spockframework:spock-core:1.1-groovy-2.4"
     // better report build/spock-reports/index.html
     testCompile( 'com.athaydes:spock-reports:1.6.0' ) {
