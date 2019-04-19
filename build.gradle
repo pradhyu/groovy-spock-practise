@@ -6,6 +6,7 @@ apply plugin: 'groovy'
 sourceCompatibility = 1.8
 
 repositories {
+    maven { url "http://repo.spring.io/libs-release" }
     mavenCentral()
 }
 
@@ -33,7 +34,6 @@ compileGroovy {
     groovyOptions.configurationScript = temp
 }
 
-
 // for @Grab
 tasks.withType(GroovyCompile) {
     groovyClasspath += configurations.ivy
@@ -41,7 +41,7 @@ tasks.withType(GroovyCompile) {
 
 // spock config 
 // you can define a task and change the spock config for that task 
-task testos (type: Test) {
+task testos(type: Test) {
     group = 'Verification' // blongs to verification group
     // this or class path 
     systemProperty 'spock.configuration', 'SpockConfigDummy.groovy'
@@ -52,7 +52,7 @@ dependencies {
     compile "org.apache.ivy:ivy:2.3.0" // for @Grab
     ivy "org.apache.ivy:ivy:2.3.0" // for @Grab
     // better report build/spock-reports/index.html
-    testCompile( 'com.athaydes:spock-reports:1.6.0' ) {
+    testCompile('com.athaydes:spock-reports:1.6.0') {
         transitive = false // this avoids affecting your version of Groovy/Spock
     }
     // if you don't already have slf4j-api and an implementation of it in the classpath, add this!
@@ -63,6 +63,10 @@ dependencies {
 
     testCompile 'com.zaxxer:HikariCP:3.3.1'
     testCompile 'commons-dbutils:commons-dbutils:1.7'
+    // test container for postgresql
     testCompile group: 'org.testcontainers', name: 'postgresql', version: '1.2.1'
     testRuntime 'org.postgresql:postgresql:42.2.5'
+    // test container for oracleXe
+    testCompile "org.testcontainers:oracle-xe:1.11.2"
+    testCompile group: 'com.oracle', name: 'ojdbc6', version:'11.2.0.3'
 }

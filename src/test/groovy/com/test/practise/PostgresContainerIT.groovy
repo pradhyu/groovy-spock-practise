@@ -19,6 +19,8 @@ class PostgresContainerIT extends Specification {
             .withDatabaseName("foo")
             .withUsername("foo")
             .withPassword("secret")
+            .withCreateContainerCmdModifier{it -> it.withName("postGreSQL")} // setting container nam
+
 
 
     def "waits until postgres accepts jdbc connections"() {
@@ -38,7 +40,7 @@ class PostgresContainerIT extends Specification {
 
         then: "result is returned"
         int resultSetInt = resultSet.getInt(1)
-        resultSetInt == 2
+        resultSetInt == 1
 
         cleanup:
         ds.close()
