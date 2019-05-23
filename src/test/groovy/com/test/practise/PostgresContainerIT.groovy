@@ -4,6 +4,7 @@ import com.zaxxer.hikari.HikariConfig
 import com.zaxxer.hikari.HikariDataSource
 import org.junit.ClassRule
 import org.testcontainers.containers.PostgreSQLContainer
+import spock.lang.Ignore
 import spock.lang.Shared
 import spock.lang.Specification
 
@@ -11,6 +12,7 @@ import java.sql.ResultSet
 import java.sql.Statement
 
 //@Testcontainers
+@Ignore
 class PostgresContainerIT extends Specification {
 
     @Shared
