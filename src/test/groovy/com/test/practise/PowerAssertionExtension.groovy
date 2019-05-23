@@ -18,6 +18,10 @@ class PowerAssertionExtension extends Specification {
                 System.err.println DASHED_LINE
                 System.err.println extraMessage
                 System.err.println DASHED_LINE
+                // needs trace turned on in gradle
+                System.out.println DASHED_LINE
+                System.out.println extraMessage
+                System.out.println DASHED_LINE
                 throw e
             }
             true

@@ -12,6 +12,7 @@ import java.sql.ResultSet
 import java.sql.Statement
 
 //@Testcontainers
+@spock.lang.Ignore
 class OracleXEContainerSpec extends Specification {
 
     @Shared
